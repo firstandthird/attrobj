@@ -1,6 +1,21 @@
+import 'core-js';
 import attrobj from '../lib/attrobj';
 
 import { test } from 'tape';
+
+const init = () => {
+  const container = document.createElement('div');
+  container.id = 'attrobj';
+  document.body.appendChild(container);
+
+  container.innerHTML = `
+    <div id="test" data-weather-raining="true" data-weather-global-rain="rain"></div>
+  `;
+
+  window.rain = '2';
+};
+
+init();
 
 test('implementation', assert => {
   assert.equal(window.rain, '2', 'global set');
