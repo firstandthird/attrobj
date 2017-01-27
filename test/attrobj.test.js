@@ -1,4 +1,3 @@
-import 'core-js';
 import attrobj from '../lib/attrobj';
 
 import { test } from 'tape';
