@@ -1,6 +1,6 @@
 import attrobj from '../lib/attrobj';
 
-import { test } from 'tape';
+import test from 'tape-rollup';
 
 const init = () => {
   const container = document.createElement('div');
