@@ -8,7 +8,7 @@ const init = () => {
   document.body.appendChild(container);
 
   container.innerHTML = `
-    <div id="test" data-weather-raining="true" data-weather-global-rain="rain"></div>
+    <div id="test" data-weather-raining="true" data-weather-boolean data-weather-global-rain="rain"></div>
   `;
 
   window.rain = '2';
@@ -30,6 +30,7 @@ test('attributes', assert => {
   assert.equal(typeof obj, 'object', 'attributes returned');
   assert.equal(obj.raining, 'true', 'normal value set');
   assert.equal(obj.rain, '2', 'global value');
+  assert.equal(obj.boolean, true, 'boolean value');
   assert.equal(typeof obj.somethingelse, 'undefined', 'doesnt get other values');
 
   assert.end();
