@@ -42,13 +42,13 @@
   "homepage": "https://github.com/firstandthird/attrobj#readme",
   "devDependencies": {
     "babel-preset-es2015": "^6.6.0",
-    "eslint-config-firstandthird": "^3.0.2",
+    "eslint-config-firstandthird": "^4.0.1",
     "eslint-plugin-import": "^2.2.0",
     "phantomjs-prebuilt": "^2.1.14",
-    "scriptkit": "0.0.22",
+    "scriptkit": "0.2.0",
     "tap-spec": "^4.1.1",
     "tape-rollup": "4.6.4",
-    "tape-run": "^2.1.5"
+    "tape-run": "^3.0.0"
   },
   "eslintConfig": {
     "env": {
