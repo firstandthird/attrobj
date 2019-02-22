@@ -2,7 +2,13 @@
 
 Transforms data-attributes into an array based on key.
 
-Example usage:
+## Installation
+
+```sh
+npm install attrobj
+```
+
+## Example usage
 
 ```html
 <div id="example" data-example-name="Test Name" data-example-color="red"></div>

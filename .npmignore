@@ -1,5 +1,10 @@
-test
 node_modules
+npm-debug.log
+.idea
+test/*
+*.map
+.DS_Store
 .git
-.travis.yml
+.editorconfig
 .node-version
+.travis.yml
