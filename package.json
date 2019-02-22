@@ -1,6 +1,6 @@
 {
   "name": "attrobj",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Creates an object based on element attributes",
   "main": "lib/attrobj.js",
   "module": "dist/attrobj.esm.js",
