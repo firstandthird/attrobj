@@ -1,5 +1,7 @@
 # attrobj
 
+[![Build Status](https://travis-ci.org/firstandthird/attrobj.svg?branch=master)](https://travis-ci.org/firstandthird/attrobj) ![npm](https://img.shields.io/npm/v/attrobj.svg)
+
 Transforms data-attributes into an array based on key.
 
 ## Installation
